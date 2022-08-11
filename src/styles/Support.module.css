@@ -1,0 +1,13 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whoSupport{
+    display:flex;
+}
+.whoSupport img{
+    width:100px;
+    margin:30px 80px;
+}

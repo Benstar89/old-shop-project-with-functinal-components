@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+
+    display:flex;
+    justify-content: space-between;
+    background:gray;
+}
+.leftside , .rightside{
+    display: flex;
+    align-items: center;
+}
+.leftside ul{
+    display: flex;
+    list-style:none;
+}
+.leftside ul li{
+    padding:15px;
+    display: flex;
+}
+.leftside ul li a{
+    text-decoration: none;
+    color:white;
+
+}
+.rightside img{
+    width:40px;
+    border-radius: 100px;
+}
+.leftside ul li:hover{
+    background-color: rgb(113, 110, 110);
+}

@@ -1,0 +1,28 @@
+.card{
+    background:grey;
+    width:200px;
+    height:250px;
+    margin:10px;
+    border-radius: 20px;
+    overflow: hidden;
+    color:white;
+}
+.card img{
+    width:100%;
+    height: 50%;
+}
+.card h3{
+    padding: 10px 0 0 10px;
+}
+.addingPart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.addingPart img{
+    padding:10px;
+    width:30px;
+}
+.deactive{
+    opacity:0.3;
+}
